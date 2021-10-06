@@ -1,0 +1,7 @@
+name: main
+title: Notebooks
+version: 'v1.0'
+nav:
+  - modules/ROOT/nav.adoc
+#  - modules/endpoints/nav.adoc
+#  - modules/ROOT/nav-end.adoc

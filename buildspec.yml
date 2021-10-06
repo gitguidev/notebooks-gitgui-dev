@@ -1,0 +1,27 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 10
+    commands:
+      - echo Nothing to do in install phase...
+  pre_build:
+    commands:
+      - echo Printing environment variables
+      - printenv
+      - node --version
+      - npm --version
+      - npm i -g @antora/cli@2.3 @antora/site-generator-default@2.3
+      - antora -v
+  build:
+    commands:
+      - echo Build started on `date`
+      - antora --fetch antora-playbook.yml
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - cd build
+      - cd site
+      - aws s3 sync . $BUCKET_NAME --delete
+      - aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths "/index.html"

@@ -1,0 +1,7 @@
+= Seguim.com
+
+Aquesta documentació ha estat generada amb Antora:
+The multi-repository documentation site generator for tech writers who writing in AsciiDoc.
+
+Aquí trobareu una referència rapida a la sintaxi d'AsciiDoc:
+https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/#literals-and-source-code
