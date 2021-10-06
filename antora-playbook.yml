@@ -3,7 +3,7 @@ site:
   start_page: main::index.adoc
 content:
   sources:
-    - url: ./
+    - url: https://github.com/gitguidev/notebooks-gitgui-dev.git
       branches: master
       start_path: docs
 ui:
