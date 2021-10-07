@@ -6,4 +6,5 @@
 
 * Wemos D1 Mini
 ** xref:wemos_awtrix.adoc[AWTRIX]
+** xref:wemos_bme280.adoc[Wemos + BME280]
 ** xref:wemos_pc.adoc[Power Consumption]

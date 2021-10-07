@@ -1,7 +1,7 @@
-= Seguim.com
+= Notebooks
 
-Aquesta documentació ha estat generada amb Antora:
+This site has been generated with Antora:
 The multi-repository documentation site generator for tech writers who writing in AsciiDoc.
 
-Aquí trobareu una referència rapida a la sintaxi d'AsciiDoc:
+Here's a quick reference to AsciiDoc syntax:
 https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/#literals-and-source-code

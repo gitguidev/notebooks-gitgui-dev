@@ -1,0 +1,9 @@
+= ESP8266 i BME280
+
+Here there's a repo with an example:
+https://github.com/ghmartin77/ESP8266_BME280
+
+image::wemos_bme280.png[]
+
+Post explaining how to connect the sensor BME280 to Wemos with low power consumption:
+https://blog.sarine.nl/2020/01/01/1-year-sensor.html
