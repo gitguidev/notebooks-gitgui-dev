@@ -6,7 +6,7 @@
     "clean": "rimraf build .cache",
     "build": "antora --stacktrace --fetch --clean antora-playbook.yml",
     "build-local": "antora --stacktrace --fetch --clean local-antora-playbook.yml; touch build/site/.nojekyll",
-    "deploy": "cd build; git clone git@github.com:gitguidev/notebooks-gitgui-site.git; cp -R site/*  notebooks-gitgui-site/; cd notebooks-gitgui-site/ git add .; git commit -m 'deploy'; git config core.sshCommand 'ssh -i ~/.ssh/id_rsa_gitgui -F /dev/null'; git push",
+    "deploy": "cd build; git clone git@github.com:gitguidev/notebooks-gitgui-site.git; cp -R site/*  notebooks-gitgui-site/; cd notebooks-gitgui-site/; git add .; git commit -m 'deploy'; git config core.sshCommand 'ssh -i ~/.ssh/id_rsa_gitgui -F /dev/null'; git push",
     "serve": "http-server build/site -c-1 --port 8080"
   },
   "devDependencies": {

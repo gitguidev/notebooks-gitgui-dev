@@ -1,0 +1,16 @@
+= Troubleshooting
+
+== Uploading to wemos is not working
+
+The last time uploading to wemos was not working on Ubuntu was a problem with the kernel:
+
+With the version 5.11.0-36 is working fine: linux-image-5.11.0-36-generic
+
+I found the solution here:
+https://github.com/espressif/esptool/issues/656
+
+So, to set the default version in Grub I did:
+https://unix.stackexchange.com/questions/198003/set-default-kernel-in-grub
+
+To configure APT to keep the version I did:
+https://askubuntu.com/questions/999529/pin-kernel-version/1049234#1049234
