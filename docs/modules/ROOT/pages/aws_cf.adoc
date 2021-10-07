@@ -1,0 +1,5 @@
+= AWS CloudFormation
+
+== Useful links
+
+* https://templates.cloudonaut.io/en/stable/[Free Templates for AWS CloudFormation by Cloudonaut.io, window="_blank"]

@@ -1,4 +1,11 @@
-= Wemos D1 Mini
+= AWTRIX
 
-* xref:git-delivery::index.adoc[Git Delivery]
-* xref:zbe::index.adoc[ZBE]
+== Useful links
+* https://awtrixdocs.blueforcer.de/#/en-en/README[Documentation, _target="blank"]
+* https://github.com/awtrix[Github, _target="blank"]
+* https://blueforcer.de/shop/[Shop, _target="blank"]
+
+== Videos
+
+* https://www.youtube.com/watch?v=jsSsjmYL1R0[$400 USD? NO GRACIAS, lo HAGO POR $25 - Reloj Led Smart Wifi, _target="blank"]
+* https://www.youtube.com/watch?v=OZJkb5-OFDk[CREA tu propio reloj ⏳ LED inteligente Wifi | Mejor que LaMetric Time, _target="blank"]

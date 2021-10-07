@@ -1,0 +1,10 @@
+= AWS CDK
+
+== Useful links
+
+* https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html[Getting Started, window="_blank"]
+* https://docs.aws.amazon.com/cdk/api/latest/[API Reference, window="_blank"]
+* https://docs.aws.amazon.com/cdk/latest/guide/work-with-cdk-java.html[Working with the AWS CDK in Java, window="_blank"]
+* https://github.com/aws-samples/aws-cdk-examples[AWS CDK Examples on Github, window="_blank"]
+* https://www.rehanvdm.com/blog/4-methods-to-configure-multiple-environments-in-the-aws-cdk[Configure Environments, window="_blank"]
+* https://reflectoring.io/designing-a-aws-cdk-project/[Designing an AWS CDK Project with Java, window="_blank"]

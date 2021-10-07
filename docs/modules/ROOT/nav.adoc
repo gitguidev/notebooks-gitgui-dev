@@ -1,4 +1,9 @@
+* AWS
+** xref:aws_cdk.adoc[AWS CDK]
+** xref:aws_cf.adoc[AWS CloudFormation]
+
 * xref:java.adoc[JAVA]
+
 * Wemos D1 Mini
 ** xref:wemos_awtrix.adoc[AWTRIX]
 ** xref:wemos_pc.adoc[Power Consumption]

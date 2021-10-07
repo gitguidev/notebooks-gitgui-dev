@@ -1,24 +1,25 @@
 = Java
 
-## Java running inside Docker
+== Java running inside Docker
 
 Finally a well explained site:
-https://support.cloudbees.com/hc/en-us/articles/204859670-Java-Heap-settings-best-practice[Java Heap settings best practice]
+https://support.cloudbees.com/hc/en-us/articles/204859670-Java-Heap-settings-best-practice[Java Heap settings best practice, window="_blank"]
 
-### TL;DR
+=== TL;DR
 
-#### Traditional Platform
+==== Traditional Platform
 
 Use *-Xmx* and *-Xms*
 
-#### Modern Platform
+==== Modern Platform
 
 Use Container resources spec with *-XX:MinRAMPercentage* and *-XX:MaxRAMPercentage*.
 
 
-## Method to test the Heap Space behaviour while filling the memory:
+== Method to test the Heap Space behaviour while filling the memory:
 
-```
+[source]
+----
 @RequestMapping(value = "/test", method = RequestMethod.GET)
     public @ResponseBody
     HttpEntity<?> test() {
@@ -45,13 +46,8 @@ Use Container resources spec with *-XX:MinRAMPercentage* and *-XX:MaxRAMPercenta
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
         }
     }
-```
+----
 
-## CDK
+== AWS CDK
 
-### Configure Environments
-https://www.rehanvdm.com/blog/4-methods-to-configure-multiple-environments-in-the-aws-cdk
-
-### Designing an AWS CDK Project with Java
-
-https://reflectoring.io/designing-a-aws-cdk-project/
+xref:aws_cdk.adoc[AWS CDK]

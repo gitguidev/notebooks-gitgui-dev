@@ -1,5 +1,5 @@
 site:
-  title: Antora Docs
+  title: Notebooks GitGui.dev
   start_page: main::index.adoc
 content:
   sources:
